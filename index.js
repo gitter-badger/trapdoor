@@ -1,1 +1,1 @@
-exports.hello = require("./dist/hello.js");
+exports.hello = require("./src/hello.js");
