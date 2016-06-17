@@ -2,4 +2,3 @@
 exports.helloWorld = function(greeting = "Hello", name = "World") {
     console.log(greeting + ", " + name + "!");
 }
-

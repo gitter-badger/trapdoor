@@ -4,7 +4,8 @@
   "description": "A Minecraft Server Replacement",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "gulp",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/CalmBit/trapdoor/issues"
   },
-  "homepage": "https://github.com/CalmBit/trapdoor"
+  "homepage": "https://github.com/CalmBit/trapdoor",
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
