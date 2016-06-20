@@ -1,1 +1,3 @@
-exports.hello = require("./src/hello.js");
+var Server = require('./src/server.js')
+
+Server.start();

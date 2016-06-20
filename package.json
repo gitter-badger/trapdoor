@@ -21,7 +21,10 @@
   },
   "homepage": "https://github.com/CalmBit/trapdoor",
   "dependencies": {
+    "buffer-reader": "^0.1.0",
     "chai": "^3.5.0",
-    "mocha": "^2.5.3"
+    "log4js": "^0.6.37",
+    "mocha": "^2.5.3",
+    "varint": "^4.0.0"
   }
 }
